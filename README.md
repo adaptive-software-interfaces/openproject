@@ -1,4 +1,5 @@
 # OpenProject
+[![Python CI](https://github.com/adaptive-software-interfaces/openproject/actions/workflows/ci.yml/badge.svg?branch=develop)](https://github.com/adaptive-software-interfaces/openproject/actions/workflows/ci.yml)
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/opf/openproject)
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/opf/openproject)
 ![GitHub branch checks state](https://img.shields.io/github/checks-status/opf/openproject/dev)

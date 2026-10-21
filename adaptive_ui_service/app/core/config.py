@@ -14,12 +14,11 @@ class Settings(BaseSettings):
     environment: str = Field(
         default="development", validation_alias="ADAPTIVE_UI_ENVIRONMENT"
     )
-    host: str = Field(
-        default="127.0.0.1", validation_alias="ADAPTIVE_UI_HOST"
-    )
+    host: str = Field(default="127.0.0.1", validation_alias="ADAPTIVE_UI_HOST")
     port: int = Field(default=8000, validation_alias="ADAPTIVE_UI_PORT")
     openproject_base_url: str = Field(
-        default="http://localhost:3000", validation_alias="ADAPTIVE_UI_OPENPROJECT_BASE_URL"
+        default="http://localhost:3000",
+        validation_alias="ADAPTIVE_UI_OPENPROJECT_BASE_URL",
     )
     openproject_api_token: str | None = Field(
         default=None, validation_alias="ADAPTIVE_UI_OPENPROJECT_API_TOKEN"

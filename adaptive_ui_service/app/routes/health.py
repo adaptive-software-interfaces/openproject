@@ -2,7 +2,6 @@ from fastapi import APIRouter
 
 from adaptive_ui_service.app.core.config import get_settings
 
-
 router = APIRouter(tags=["health"])
 
 
